@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" class="font-poppins">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="output.css" />
+
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container mt-10">
+          <div class="flex flex-col items-center">
+            <div class="grid grid-rows-2 justify-items-center">
+              <div class="grid grid-cols-1">
+                <h1 class="text-center text-xs lg:text-2xl lg:max-w-xs">
+                  Reliable, efficient delivery
+                  <span class="font-bold">Powered by Technology</span>
+                </h1>
+              </div>
+              <div class="grid grid-cols-1">
+                <p
+                  class="lg:max-w-md text-center lg:text-sm text-xs text-slate-500"
+                >
+                  Our Artificial Intelligence powered tools use millions of
+                  project data points to ensure that your project is successful
+                </p>
+              </div>
+            </div>
+            <div class="grid lg:grid-rows-4 lg:grid-flow-col gap-5 mt-10">
+              <div class="lg:col-span-4 lg:row-start-2 lg:row-span-2">
+                <div class="card overflow-hidden shadow-xl">
+                  <div class="card-body border-t-2 border-cyan">
+                    <div class="card-title">Supervisor</div>
+                    <p class="text-slate-500">
+                      Monitors activity to identify project roadblocks
+                    </p>
+                    <div class="flex justify-end mt-10">
+                      <img
+                        src="./images/icon-supervisor.svg"
+                        alt="icon-supervisor"
+                        class="w-14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:col-span-4 lg:row-span-4">
+                <div class="flex flex-col gap-5">
+                  <div class="card overflow-hidden shadow-xl">
+                    <div class="card-body border-t-2 border-red">
+                      <div class="card-title">Team Builder</div>
+                      <p class="text-slate-500">
+                        Scans our talent network to create the optimal team for
+                        your project
+                      </p>
+                      <div class="flex justify-end mt-10">
+                        <img
+                          src="./images/icon-team-builder.svg"
+                          alt="icon-team-builder"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card overflow-hidden shadow-xl">
+                    <div class="card-body border-t-2 border-orange">
+                      <div class="card-title">Karma</div>
+                      <p class="text-slate-500">
+                        Regularly evaluates our talent to ensure quality
+                      </p>
+                      <div class="flex justify-end mt-10">
+                        <img src="./images/icon-karma.svg" alt="icon-karma" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:col-span-4 lg:row-start-2 lg:row-span-2">
+                <div class="card overflow-hidden shadow-xl">
+                  <div class="card-body border-t-2 border-blue">
+                    <div class="card-title">Calculator</div>
+                    <p class="text-slate-500">
+                      Uses data from past projects to provide better delivery
+                      estimates
+                    </p>
+                    <div class="flex justify-end mt-10">
+                      <img
+                        src="./images/icon-calculator.svg"
+                        alt="icon-calculator"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="text-sm text-center my-10">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          rel="noopener"
+          target="_blank"
+          class="relative before:absolute before:-inset-1 before:-skew-y-3 before:bg-sky-500 text-white"
+          ><span class="relative">Frontend Mentor</span></a
+        >. Coded with ❤️ by
+        <a
+          href="https://github.com/aldiipratama"
+          rel="noopener"
+          target="_blank"
+          class="relative before:absolute before:-inset-1 before:-skew-y-3 before:bg-sky-500 text-white"
+          ><span class="relative">Aldi Pratama</span></a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
